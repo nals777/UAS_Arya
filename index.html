@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Biografi</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Script Toggle Mode -->
+    <script>
+        function toggleMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }  
+    </script>
+
+</head>
+<style>
+    .display-4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black !important;
+    }
+
+    
+</style>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Tombol toggle -->
+            <button onclick="toggleMode()">Rubah Background</button>
+        </div>
+    </nav>
+    
+    <!-- Konten Lainnya -->
+    
+    <!-- Styling Dark Mode -->
+    <style>
+        
+        body.dark-mode {
+            background-color: #2d2d2d;
+            color: #fff;
+        }
+    
+        body.dark-mode .bg-light {
+            background-color: #3b3b3b !important;
+        }
+    </style>
+
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand">Arya Zaenal Abidin</a>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <img src="pp.jpeg" class="img-thumbnail rounded-circle" width="350px">
+            <h1 class="display-4">Arya Zaenal Abidin</h1>
+            <p class="lead">Web Developer And Traveller</p>
+        </div>
+    </div>
+
+    <!-- Konten Utama -->
+    <div class="container">
+
+        <!-- Tentang Saya -->
+        <section id="about">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Tentang Saya</h2>
+                    <p text align="justify">
+                        Hallo perkenalkan nama saya Arya Zaenal Abidin. Saya lahir di Wonosobo, 22 Desember 2001. Sejak kecil saya mempunyai minat yang besar terhadap teknologi dan komputer. 
+                        Setelah lulus SMA, saya melanjutkan pendidikan di jurusan  Teknik Informatika di Universitas Pamulang (UNPAM). Saya masuk Teknik Informatika karena saya tertarik dengan 
+                        membuat program. 
+                        Di sela-sela kesibukannya bekerja, Saya sangat menikmati traveling dan jalan-jalan keliling Indonesia bersama
+                        Teman-teman saya, bersama teman, <strong>saya sudah mengeksplorasi berbagai destinasi wisata di Pulau Jawa dan Sumatera, dari Bali sampai Palembang</strong>. 
+                        Bagi Saya touring adalah cara paling menyenangkan untuk melepas penat dan mencari inspirasi baru.
+                        <br>
+                        <br>
+
+                        <h3>JAWABAN NO 1</h3>
+                    <p text align="justify">
+                        Cara kerja website pada dasarnya melibatkan web server, domain, dan hosting yang saling terhubung:
+                        <br>
+                        1. Web Server
+                        Web server merupakan software dan hardware yang bertugas menerima request dari client (browser) melalui protocol
+                        HTTP/HTTPS. Web server tempat menyimpan files dan resources yang menyusun sebuah website seperti HTML, CSS, Gambar,
+                        Javascript dan lainnya.
+                        Beberapa web server populer adalah Apache, Nginx, IIS.
+                        <br>
+                        2. Domain
+                        Domain merupakan alamat website yang diberikan ke komputer client untuk mengakses web server. Domain berupa nama unik
+                        yang mudah diingat, contohnya google.com.
+                        Domain mengarah ke alamat IP web server tempat website disimpan.
+                        <br>
+                        3. Hosting
+                        Hosting merupakan jasa layanan untuk menyewa/menyediakan server dan tempat untuk menaruh file website agar bisa diakses
+                        melalui internet.
+                        <br>
+                        Jadi hosting berfungsi untuk menempatkan web server beserta file website agar bisa diakses lewat domain.
+                        Jadi ketiganya saling terkait:
+                        - Website diletakkan di web server dan disimpan di hosting
+                        - Domain mengarah ke alamat IP hosting
+                        - Client mengakses domain, request diarahkan ke web server lewat hosting
+                        - Web server merespon request dan menampilkan website
+                        Dengan demikian client bisa mengakses konten website melalui domain tertentu yang di-host-kan di server hosting.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Info Kontak</h2>
+                    <p>
+                        <strong>Email :</strong>
+                        <a href="mailto:wolessarya@email.com">
+                            wolessarya@gmail.com
+                        </a>
+                        <br>
+                        <strong>Whatsapp :</strong>
+                        <a href="https://wa.me/6281310604832" target="_blank">
+                            +62 813 1060 4832
+                        </a>
+                        <br>
+                        <strong>Instagram :</strong>
+                        <a href="https://www.instagram.com/@Arya_Zaenal60" target="_blank">
+                            @Arya_Zaenal60
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill -->
+        <section id="skills">
+            <h2>Skill</h2>
+            <div class="progress">
+                <div class="progress-bar bg-success" style="width:80%">
+                    HTML & CSS
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:70%">
+                    Javascript
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar bg-warning" style="width:60%">
+                    PHP
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="width:50%">
+                    Python
+                </div>
+            </div>
+        </section>
+
+        <!-- Pendidikan -->
+        <section id="education" class="bg-light">
+            <h2>Pendidikan</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">S1 Informatika</h4>
+                            <p class="univ">
+                                Universitas Pamulang (UNPAM)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            /* Style Toggle Mode */
+            body.dark-mode {
+                background-color: #222;
+                color: #eee;
+            }
+        
+            /* Style Section Pendidikan */
+            body.dark-mode #education {
+                background-color: #222;
+                color: #eee;
+            }
+
+            h4 {
+                color: #222;
+            }
+
+            card-body.bg-light {
+                color: black;
+            }
+
+            .univ {
+                color: #222;
+            }
+        </style>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-dark" href="#">Arya Zaenal Abidin</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
